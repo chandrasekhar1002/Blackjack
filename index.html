@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Blackjack Game</h1>
+    <div id="game">
+        <button id="new-game-button" onclick="newGame()">New Game</button>
+        <div class="button-group">
+            <button id="hit-button" onclick="hit()">Hit</button>
+            <button id="stand-button" onclick="stand()">Stand</button>
+        </div>
+    </div>
+    <div id="result"></div>
+    <div id="player-hand" class="hand">Player Hand: </div>
+    <div id="dealer-hand" class="hand">Dealer Hand: </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
